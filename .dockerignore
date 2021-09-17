@@ -1,0 +1,13 @@
+# Exclude Beanstalk configuration
+.elasticbeanstalk
+
+# Exclude git
+.git
+
+# Exclude IDE settings folders
+.idea
+.vscode
+
+# Exclude node modules and the dist folder since the service will be built inside the container
+dist
+node_modules
